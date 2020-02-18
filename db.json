@@ -1,0 +1,29 @@
+{
+  "coursesDetails": [
+    {
+      "id": 1,
+      "name": "json-server",
+      "description": "typicode",
+      "professor": [
+        {
+          "id": 1,
+          "name": "Mr. Vegetta"
+        }
+      ],
+      "classes": [
+        {
+          "id": 1,
+          "name": "turma 2020/2"
+        }
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "id": 2,
+      "name": "Java",
+      "description": "java 8",
+      "coordinator": "Mr. Lugano"
+    }
+  ]
+}

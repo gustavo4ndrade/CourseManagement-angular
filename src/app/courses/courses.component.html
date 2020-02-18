@@ -1,0 +1,15 @@
+<div class="card">
+    <div class="card-header">
+        <div class="float-left">
+            <h4>Courses</h4>
+        </div>
+        <div class="float-right">
+            <button type="button" class="btn btn-primary" [routerLink]="['new']">New Course</button>
+        </div>
+    </div>
+    <div class="card-body">
+        <app-courses-list></app-courses-list>
+    </div>
+</div>
+
+<router-outlet></router-outlet>
